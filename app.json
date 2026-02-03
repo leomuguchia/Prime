@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Prime",
+    "slug": "prime",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4ECDC4"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.lio.prime"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableProguardInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "enableMinifyInReleaseBuilds": true
+          }
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
